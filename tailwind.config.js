@@ -52,7 +52,7 @@ module.exports = {
       '150vh': '150vh',
     },
     backgroundImage: {
-      'texture': "url('public/images/background.svg')",
+      'texture': "url('public/images/background.png')",
       'bitbrawl': "url('public/images/bitbrawl.png')",
       'cosmogene': "url('public/images/cosmogene.png')",
       'contact': "url('public/images/contact_bg.svg')",

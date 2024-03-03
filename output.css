@@ -812,7 +812,7 @@ video {
 }
 
 .bg-texture {
-  background-image: url('public/images/background.svg');
+  background-image: url('public/images/background.png');
 }
 
 .bg-cover {
