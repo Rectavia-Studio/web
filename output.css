@@ -1205,6 +1205,16 @@ video {
     padding: 1.75rem;
   }
 
+  .md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .md\:py-28 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
   .md\:text-p42 {
     font-size: 1.6rem;
   }
@@ -1230,6 +1240,22 @@ video {
 
   .lg\:min-h-screen {
     min-height: 100vh;
+  }
+
+  .lg\:min-h-\[90vh\] {
+    min-height: 90vh;
+  }
+
+  .lg\:min-h-\[80vh\] {
+    min-height: 80vh;
+  }
+
+  .lg\:min-h-\[70vh\] {
+    min-height: 70vh;
+  }
+
+  .lg\:min-h-full {
+    min-height: 100%;
   }
 
   .lg\:w-3\/4 {
