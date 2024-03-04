@@ -31,7 +31,8 @@ module.exports = {
         'p42': '1.6rem',
         'button': '1rem',
         'h1': '3.3rem',
-        'h2': '1.5rem'
+        'h2': '2rem',
+        'h3': '1.5rem'
       },
       backgroundImage: {
         'texture': "url('public/images/background.png')",
