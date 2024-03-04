@@ -1073,6 +1073,10 @@ video {
     margin-top: 0px;
   }
 
+  .xs\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
   .xs\:flex {
     display: flex;
   }
