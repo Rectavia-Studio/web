@@ -38,11 +38,7 @@ module.exports = {
         'texture': "url('public/images/background.png')",
         'bitbrawl': "url('public/images/bitbrawl.png')",
         'cosmogene': "url('public/images/cosmogene.png')",
-        'contact': "url('public/images/contact_bg.svg')",
-        'team': "url('public/images/team_bg.svg')",
-        'testimonials': "url('public/images/testimonials_bg.svg')",
-        'projects': "url('public/images/projects_bg.svg')",
-        'about': "url('public/images/about_bg.svg')"
+        'gradients': "url('public/images/background_gradients.svg')"
       },
     },
   },
