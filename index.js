@@ -9,7 +9,7 @@ document
   .addEventListener("submit", function (event) {
     event.preventDefault();
 
-    // TODO: add the loader button
+    // TODO: add the loading button
 
     // Perform an AJAX request to submit the form
     var xhr = new XMLHttpRequest();
