@@ -10,6 +10,8 @@ document
     event.preventDefault();
 
     // TODO: add the loading button
+    const button = document.getElementById("submit-button");
+    button.disabled = true;
 
     // Perform an AJAX request to submit the form
     var xhr = new XMLHttpRequest();
@@ -19,11 +21,13 @@ document
         if (xhr.status === 201) {
           // Successful response
           var response = xhr.responseText;
+          button.disabled = false;
           console.log(response);
           document.getElementById("sheetdb-form").reset(); //Clear the form fields
         } else {
           // Error response
           console.log(xhr.status);
+          button.disabled = false;
           console.log("Error: Something went wrong."); // Show a generic error message
         }
       }
