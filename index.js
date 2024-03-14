@@ -24,21 +24,18 @@ document
     xhr.open("POST", this.action);
     xhr.onreadystatechange = function () {
       if (xhr.readyState === XMLHttpRequest.DONE) {
-        if (xhr.status === 201) {
+        if (xhr.status === 200) {
           // Successful response
           var response = xhr.responseText;
           button.disabled = false;
           button.innerText = "Contact Us";
-          resultDiv.innerText =
-            "Form submission was successful. Thank you. We will get back to you within 24 hours";
-          console.log(response);
+          resultDiv.innerText = response;
           document.getElementById("sheetdb-form").reset();
-          // Form submission was successful. Thank you. We will get back to you within 24 hours
         } else {
           // Error response
           button.disabled = false;
           button.innerText = "Contact Us";
-          console.log("Error: Something went wrong. Please, try again");
+          resultDiv.innerText = "Something went wrong. Please, try again";
         }
       }
     };
